@@ -1,13 +1,13 @@
 package com.company.models;
 
 public class Puzzel {
-    private int aantalPlaatjesInPuzzel;
+    private int aantalStukjesInPuzzel;
 
-    public Puzzel(int aantalPlaatjesInPuzzel) {
-        this.aantalPlaatjesInPuzzel = aantalPlaatjesInPuzzel;
+    public Puzzel(int aantalStukjesInPuzzel) {
+        this.aantalStukjesInPuzzel = aantalStukjesInPuzzel;
     }
 
-    public int getAantalPlaatjesInPuzzel() {
-        return aantalPlaatjesInPuzzel;
+    public int getAantalStukjesInPuzzel() {
+        return aantalStukjesInPuzzel;
     }
 }

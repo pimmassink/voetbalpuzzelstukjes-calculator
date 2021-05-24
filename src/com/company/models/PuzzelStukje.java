@@ -3,13 +3,13 @@ package com.company.models;
 import java.util.Objects;
 
 /**
- * We representeren een plaatje als een getal. Een puzzel met 30 stukjes heeft dus: Plaatje 1, plaatje 2, plaatje 3, etc.
+ * We representeren een stukje als een getal. Een puzzel met 30 stukjes heeft dus: Stukje 1, stukje 2, stukje 3, etc.
  */
-public class Plaatje {
+public class PuzzelStukje {
 
     private int id;
 
-    public Plaatje(int id) {
+    public PuzzelStukje(int id) {
         this.id = id;
     }
 
@@ -23,11 +23,11 @@ public class Plaatje {
             return true;
         }
 
-        if (!(obj instanceof Plaatje)) {
+        if (!(obj instanceof PuzzelStukje)) {
             return false;
         }
 
-        Plaatje other = (Plaatje) obj;
+        PuzzelStukje other = (PuzzelStukje) obj;
         return other.id == this.id;
     }
 
